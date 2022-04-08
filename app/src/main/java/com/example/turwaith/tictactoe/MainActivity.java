@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
             gameState[tappedCounter] = activePlayer;
 
-            //I don't get this one below
+            
             gameState[tappedCounter] = activePlayer;
             if(activePlayer == 0){
                 counter.setImageResource(R.drawable.cross);
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 activePlayerView.setImageResource(R.drawable.cross);
             }
 
-            //And I don't get this one either
+            
             for(int[] winningPos:winningPos){
                 if(gameState[winningPos[0]]==gameState[winningPos[1]]&&gameState[winningPos[1]]==gameState[winningPos[2]]&&gameState[winningPos[0]] !=2){
                     String winner = "";
