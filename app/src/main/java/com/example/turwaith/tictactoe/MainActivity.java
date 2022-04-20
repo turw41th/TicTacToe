@@ -94,10 +94,10 @@ public class MainActivity extends AppCompatActivity {
                                 winnerTextView.setVisibility(View.VISIBLE);
                                 activePlayerView.setImageDrawable(null);
 
+                            }
+
+
                         }
-
-
-                    }
 
                     }
                 }
